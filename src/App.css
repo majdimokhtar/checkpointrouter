@@ -161,21 +161,25 @@ text-align: center;}
 .container {
   display: flex;
   justify-content: space-between;
+  height: 100%;
+  position: relative;
+  
 }
 
+
 .containertext{
-  display: flex;
+    display: flex;
     justify-content: space-between;
     flex-direction: column;
     color: white;
     margin-top: 10px;
-    width: 540px;
-    height: 424px;
+    width: 100%;
+    height: 100%;
     margin-right: 200px;
     margin-left: 202px;
-    
     text-align: left;
-
+    
+    
 }
 
 .titledescription{
@@ -183,6 +187,29 @@ text-align: center;}
 align-items: center;
 text-align: left !important;
 }
+
+
+
+.fun1 {
+  text-align: left;
+  color: white;
+  border: 0;
+  cursor: pointer;
+  padding: .5em 1.25em;
+  background: linear-gradient(90deg, #ee6352, purple, #ee6352);
+  background-size: 300%;
+  background-position: left;
+  transition: background-position 350ms;
+  border-radius: 5px;
+  position: absolute;
+    bottom: 0;
+  
+}
+
+.fun1:hover {
+  background-position: right;
+}
+
 
 
 
